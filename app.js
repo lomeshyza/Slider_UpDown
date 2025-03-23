@@ -13,7 +13,6 @@ upBtn.addEventListener('click', ()=>{
     changeSlide('up')
 })
 document.addEventListener('keydown', (evt)=>{
-    console.log(evt.key)
     if (evt.key=='ArrowUp'){
         changeSlide('up')
     }else if (evt.key=='ArrowDown') {
